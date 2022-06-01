@@ -12,7 +12,7 @@ app.use(cors());
 dotenv.config();
 
 const PORT = process.env.PORT;
-// const CONNECTION_URL = "mongodb+srv://caiquesap:HUYTGzDbZZCJ8X6o@cluster0.ahs3u.mongodb.net/record-shop?retryWrites=true&w=majority";
+
 
 app.get("/", (req, res) => {
     res.send("Hello World");
